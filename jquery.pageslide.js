@@ -107,7 +107,7 @@ function elsForPageSlide(settings) {
                 var psBodyWrap = document.createElement("div");
                 $(psBodyWrap).css(pageslide_body_wrap_css);
                 $(psBodyWrap).addClass("pageslide-body-wrap").addClass(settings.kind).attr('kind', settings.kind).width($(settings.target).width());
-                $(settings.target).wrapInner(psBodyWrap);
+                $(settings.target).contents().wrapAll.(psBodyWrap);
 
                 var psSlideContent = document.createElement("div");
                 $(psSlideContent).addClass("pageslide-content").addClass(settings.kind).attr('kind', settings.kind).width(settings.width);
