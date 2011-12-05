@@ -2,6 +2,17 @@ h1. jQuery PageSlide Plugin
 
 A jQuery JavaScript plugin which slides a webpage over to reveal an additional interaction pane. 
 
+
+h3. paulshapiro pageslide fork features summary
+
+* Supply html contents in settings
+* Spawn page slides inside children DOM elements by supplying its parent element's selector as "target" in settings
+* Have multiple pageslides visible at once through the "kind" setting (Just supply a different string)
+* Destroy pageslide on close instead of just hiding it
+* onclose callback
+* Anonymously call pageslide to open  $.fn.pageSlide(params)
+* Integrates "body".contents.wrapInner fix
+
 h3. New Version 1.3! (July 6th, 2011)
 
 * Numerous bug fixes
