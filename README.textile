@@ -8,7 +8,7 @@ h3. paulshapiro pageslide fork features summary (Dec 5 2011)
 * Supply html contents in settings
 * Spawn page slides inside children DOM elements by supplying its parent element's selector as "target" in settings
 * Have multiple pageslides visible at once through the "kind" setting (Just supply a different string)
-* Destroy pageslide on close instead of just hiding it
+* Destroy pageslide on close instead of just hiding it by $.fn.pageSlideClose({destroy: true})
 * onclose callback
 * Anonymously call pageslide to open  $.fn.pageSlide(params)
 * Integrates "body".contents.wrapInner fix
